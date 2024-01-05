@@ -1,0 +1,25 @@
+{
+  "name": "playwright-udemy-basic-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitor-moratz/playwright-udemy-basic-course.git"
+  },
+  "author": "Vitor Moratz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitor-moratz/playwright-udemy-basic-course/issues"
+  },
+  "homepage": "https://github.com/vitor-moratz/playwright-udemy-basic-course#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3"
+  }
+}
