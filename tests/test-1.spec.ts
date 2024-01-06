@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.only('test', async ({ page }) => {
+test('test', async ({ page }) => {
   await page.goto('https://www.youtube.com/');
   await page.getByPlaceholder('Search').fill('qa start marcos franco');
   await page.getByRole('button', { name: 'Search', exact: true }).click();
